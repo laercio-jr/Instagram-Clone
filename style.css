@@ -1,0 +1,194 @@
+* {
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Segoe UI';
+    font-size: 14px;    
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #fafafa;
+    margin: auto;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 60%;
+    min-height: 60vh;
+    height: 80vh;
+}
+
+.phones {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 70%;
+    padding-right: 50px;
+    height: 70vh;
+}
+
+.phones img {    
+    height: 63vh;
+}
+
+
+.login {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    max-width: 345px;
+    max-height: 345px;
+    min-width: 345px;
+    min-height: 345px; 
+    background-color: #ffffff;
+    border: 1.5px solid #dbdbdb;
+    padding: 1.3rem 1.3rem;
+    
+
+}
+
+
+.logo {
+    justify-content: space-around;
+    text-align: center;
+     
+}
+
+.logo img {
+    max-width: 70%; 
+    
+}
+
+.profile-photo img {
+    height: 8.4rem;
+    padding-bottom: 15px;
+}
+
+.continuar {
+    background-color: #0095f6;
+    border: 1px solid transparent;
+    color: #ffffff;
+    padding: 5px; 
+    border-radius: 4px;
+    text-align: center;
+    font-weight:600;
+    font-style: normal;
+    line-height: 18px;
+    
+    
+}
+
+.continuar span {
+    padding-right: 15px;
+    padding-left: 15px;
+
+}
+
+.pchange-account {
+    padding-top: 12px;
+    color: #262626;   
+    font-size: 14px;     
+    font-weight: 400;
+}
+
+.change-account {
+    color: #0095f6;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items:center;  
+    position: absolute;
+    bottom: 50px;
+    width: 100%;   
+}
+
+.footer a, p, pre{    
+    padding: 1px;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    color: #8e8e8e;
+
+}
+
+.final-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 12px;
+    gap: 15px
+}
+
+
+select {
+    appearance: none;
+    background: url(https://www.ronaldodiniz.com.br/wp-content/uploads/2020/06/select-angle-down.png) no-repeat center right transparent;
+    padding-right: 21px;
+    border: none;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    color: #8e8e8e;
+
+}
+
+select option {
+    color: black;
+}
+
+
+
+@media (max-width: 1024px) {
+    .wrapper {
+        width: 30vh;
+    }
+
+    .phones {
+        display: none;
+        
+    }
+}
+
+@media (max-height: 900px) {
+
+    .phones {
+        display: none;
+        
+    }
+}
+
+/*
+
+
+
+
+@media (max-width: 900px) {
+
+    .wrapper {
+        width: 60%;
+    }
+
+    .phones {
+            display: none;
+            
+        }
+    
+
+}
