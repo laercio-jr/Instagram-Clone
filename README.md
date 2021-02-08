@@ -1,4 +1,4 @@
-# Instagram-Clone-Primeiro-projeto-
+# Instagram Clone - Primeiro projeto
 
 Primeiro projeto usando HTML e CSS, um clone da pagina inicial do instagram.
 
